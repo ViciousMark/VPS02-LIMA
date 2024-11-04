@@ -1,0 +1,201 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('venom.jpg');
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px white;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+
+
+.sinopse-box {
+    color: white;
+    background-color: #000000;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trailer-box {
+    color: white;
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.elenco-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    color: white;
+    background-color: #000000;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px white
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h4 {
+    margin: 10px 0;
+}
+
+.personagem-box{
+    color: white;
+    background-color: #000000;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.curiosidade-box {
+    color: white;
+    background-color: #000000;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.galeria-box {
+    color: white;
+    background-color: #000000;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 15px; 
+}
+
+.galeria img {
+    width: 200px; 
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+
+.contato-container {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.social-media a:hover img {
+    transform: scale(1.1);
+}
